@@ -3,7 +3,10 @@
 import rpyc
 
 class PrimesServer(rpyc.Service):
+    ALIASES = ["foo"]
+    print("ok")
     def on_connect(self):
+
         pass
     def on_disconnect(self):
         pass
